@@ -47,8 +47,7 @@ git clone https://github.com/BuriXon-code/php-tor-filter/
 fetch.sh /var/www/mysite/tor/
 ```
 
-5. Add to crontab to refresh the list periodically:
-- (Insert here: example `cron` line)
+5. Add to crontab to refresh the list periodically.
 
 6. In your PHP project:
 - Include `filter.php` at the top of any protected script.
